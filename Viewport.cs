@@ -21,10 +21,15 @@ namespace WpfControls
 
 		protected override Size MeasureOverride(Size availableSize)
 		{
+			var infinite = new Size(double.PositiveInfinity, double.PositiveInfinity);
+
+			if (availableSize == infinite)
+				availableSize = new Size(ActualWidth, ActualHeight);
+
 			if (Child == null)
 				return availableSize;
 
-			Child.Measure(new Size(double.PositiveInfinity, double.PositiveInfinity));
+			Child.Measure(infinite);
 
 			Scale = Math.Min(availableSize.Height / Child.DesiredSize.Height, availableSize.Width / Child.DesiredSize.Width);
 
