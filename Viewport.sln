@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfControls.Viewport", "WpfControls.Viewport.csproj", "{98DFEF07-DFF3-4F74-97AF-0688648806AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viewport", "Viewport.csproj", "{98DFEF07-DFF3-4F74-97AF-0688648806AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
