@@ -31,9 +31,6 @@
 		<DocumentationFile>$(OutputPath)</DocumentationFile>
 	</PropertyGroup>
 	<ItemGroup>
-	  <PackageReference Include="WPFControls.Core" Version="1.0.0" />
-	</ItemGroup>
-	<ItemGroup>
 		<None Update="LICENSE">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
